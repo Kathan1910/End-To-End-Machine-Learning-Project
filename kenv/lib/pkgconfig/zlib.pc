@@ -1,0 +1,13 @@
+prefix=/home/kathan/Kathan/Machine Learning Project/kenv
+exec_prefix=/home/kathan/Kathan/Machine Learning Project/kenv
+libdir=/home/kathan/Kathan/Machine Learning Project/kenv/lib
+sharedlibdir=/home/kathan/Kathan/Machine Learning Project/kenv/lib
+includedir=/home/kathan/Kathan/Machine Learning Project/kenv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
