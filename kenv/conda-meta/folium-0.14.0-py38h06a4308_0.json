@@ -1,0 +1,953 @@
+{
+  "build": "py38h06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "branca >=0.6.0",
+    "jinja2 >=2.9",
+    "numpy",
+    "python >=3.8,<3.9.0a0",
+    "requests"
+  ],
+  "extracted_package_dir": "/home/kathan/anaconda3/pkgs/folium-0.14.0-py38h06a4308_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/folium-0.14.0.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/folium-0.14.0.dist-info/LICENSE.txt",
+    "lib/python3.8/site-packages/folium-0.14.0.dist-info/METADATA",
+    "lib/python3.8/site-packages/folium-0.14.0.dist-info/RECORD",
+    "lib/python3.8/site-packages/folium-0.14.0.dist-info/REQUESTED",
+    "lib/python3.8/site-packages/folium-0.14.0.dist-info/WHEEL",
+    "lib/python3.8/site-packages/folium-0.14.0.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/folium-0.14.0.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/folium/__init__.py",
+    "lib/python3.8/site-packages/folium/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/folium/__pycache__/_version.cpython-38.pyc",
+    "lib/python3.8/site-packages/folium/__pycache__/elements.cpython-38.pyc",
+    "lib/python3.8/site-packages/folium/__pycache__/features.cpython-38.pyc",
+    "lib/python3.8/site-packages/folium/__pycache__/folium.cpython-38.pyc",
+    "lib/python3.8/site-packages/folium/__pycache__/map.cpython-38.pyc",
+    "lib/python3.8/site-packages/folium/__pycache__/raster_layers.cpython-38.pyc",
+    "lib/python3.8/site-packages/folium/__pycache__/utilities.cpython-38.pyc",
+    "lib/python3.8/site-packages/folium/__pycache__/vector_layers.cpython-38.pyc",
+    "lib/python3.8/site-packages/folium/_version.py",
+    "lib/python3.8/site-packages/folium/elements.py",
+    "lib/python3.8/site-packages/folium/features.py",
+    "lib/python3.8/site-packages/folium/folium.py",
+    "lib/python3.8/site-packages/folium/map.py",
+    "lib/python3.8/site-packages/folium/plugins/__init__.py",
+    "lib/python3.8/site-packages/folium/plugins/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/folium/plugins/__pycache__/antpath.cpython-38.pyc",
+    "lib/python3.8/site-packages/folium/plugins/__pycache__/beautify_icon.cpython-38.pyc",
+    "lib/python3.8/site-packages/folium/plugins/__pycache__/boat_marker.cpython-38.pyc",
+    "lib/python3.8/site-packages/folium/plugins/__pycache__/draw.cpython-38.pyc",
+    "lib/python3.8/site-packages/folium/plugins/__pycache__/dual_map.cpython-38.pyc",
+    "lib/python3.8/site-packages/folium/plugins/__pycache__/fast_marker_cluster.cpython-38.pyc",
+    "lib/python3.8/site-packages/folium/plugins/__pycache__/feature_group_sub_group.cpython-38.pyc",
+    "lib/python3.8/site-packages/folium/plugins/__pycache__/float_image.cpython-38.pyc",
+    "lib/python3.8/site-packages/folium/plugins/__pycache__/fullscreen.cpython-38.pyc",
+    "lib/python3.8/site-packages/folium/plugins/__pycache__/geocoder.cpython-38.pyc",
+    "lib/python3.8/site-packages/folium/plugins/__pycache__/groupedlayercontrol.cpython-38.pyc",
+    "lib/python3.8/site-packages/folium/plugins/__pycache__/heat_map.cpython-38.pyc",
+    "lib/python3.8/site-packages/folium/plugins/__pycache__/heat_map_withtime.cpython-38.pyc",
+    "lib/python3.8/site-packages/folium/plugins/__pycache__/locate_control.cpython-38.pyc",
+    "lib/python3.8/site-packages/folium/plugins/__pycache__/marker_cluster.cpython-38.pyc",
+    "lib/python3.8/site-packages/folium/plugins/__pycache__/measure_control.cpython-38.pyc",
+    "lib/python3.8/site-packages/folium/plugins/__pycache__/minimap.cpython-38.pyc",
+    "lib/python3.8/site-packages/folium/plugins/__pycache__/mouse_position.cpython-38.pyc",
+    "lib/python3.8/site-packages/folium/plugins/__pycache__/pattern.cpython-38.pyc",
+    "lib/python3.8/site-packages/folium/plugins/__pycache__/polyline_offset.cpython-38.pyc",
+    "lib/python3.8/site-packages/folium/plugins/__pycache__/polyline_text_path.cpython-38.pyc",
+    "lib/python3.8/site-packages/folium/plugins/__pycache__/scroll_zoom_toggler.cpython-38.pyc",
+    "lib/python3.8/site-packages/folium/plugins/__pycache__/search.cpython-38.pyc",
+    "lib/python3.8/site-packages/folium/plugins/__pycache__/semicircle.cpython-38.pyc",
+    "lib/python3.8/site-packages/folium/plugins/__pycache__/side_by_side.cpython-38.pyc",
+    "lib/python3.8/site-packages/folium/plugins/__pycache__/tag_filter_button.cpython-38.pyc",
+    "lib/python3.8/site-packages/folium/plugins/__pycache__/terminator.cpython-38.pyc",
+    "lib/python3.8/site-packages/folium/plugins/__pycache__/time_slider_choropleth.cpython-38.pyc",
+    "lib/python3.8/site-packages/folium/plugins/__pycache__/timestamped_geo_json.cpython-38.pyc",
+    "lib/python3.8/site-packages/folium/plugins/__pycache__/timestamped_wmstilelayer.cpython-38.pyc",
+    "lib/python3.8/site-packages/folium/plugins/__pycache__/vectorgrid_protobuf.cpython-38.pyc",
+    "lib/python3.8/site-packages/folium/plugins/antpath.py",
+    "lib/python3.8/site-packages/folium/plugins/beautify_icon.py",
+    "lib/python3.8/site-packages/folium/plugins/boat_marker.py",
+    "lib/python3.8/site-packages/folium/plugins/draw.py",
+    "lib/python3.8/site-packages/folium/plugins/dual_map.py",
+    "lib/python3.8/site-packages/folium/plugins/fast_marker_cluster.py",
+    "lib/python3.8/site-packages/folium/plugins/feature_group_sub_group.py",
+    "lib/python3.8/site-packages/folium/plugins/float_image.py",
+    "lib/python3.8/site-packages/folium/plugins/fullscreen.py",
+    "lib/python3.8/site-packages/folium/plugins/geocoder.py",
+    "lib/python3.8/site-packages/folium/plugins/groupedlayercontrol.py",
+    "lib/python3.8/site-packages/folium/plugins/heat_map.py",
+    "lib/python3.8/site-packages/folium/plugins/heat_map_withtime.py",
+    "lib/python3.8/site-packages/folium/plugins/locate_control.py",
+    "lib/python3.8/site-packages/folium/plugins/marker_cluster.py",
+    "lib/python3.8/site-packages/folium/plugins/measure_control.py",
+    "lib/python3.8/site-packages/folium/plugins/minimap.py",
+    "lib/python3.8/site-packages/folium/plugins/mouse_position.py",
+    "lib/python3.8/site-packages/folium/plugins/pattern.py",
+    "lib/python3.8/site-packages/folium/plugins/polyline_offset.py",
+    "lib/python3.8/site-packages/folium/plugins/polyline_text_path.py",
+    "lib/python3.8/site-packages/folium/plugins/scroll_zoom_toggler.py",
+    "lib/python3.8/site-packages/folium/plugins/search.py",
+    "lib/python3.8/site-packages/folium/plugins/semicircle.py",
+    "lib/python3.8/site-packages/folium/plugins/side_by_side.py",
+    "lib/python3.8/site-packages/folium/plugins/tag_filter_button.py",
+    "lib/python3.8/site-packages/folium/plugins/terminator.py",
+    "lib/python3.8/site-packages/folium/plugins/time_slider_choropleth.py",
+    "lib/python3.8/site-packages/folium/plugins/timestamped_geo_json.py",
+    "lib/python3.8/site-packages/folium/plugins/timestamped_wmstilelayer.py",
+    "lib/python3.8/site-packages/folium/plugins/vectorgrid_protobuf.py",
+    "lib/python3.8/site-packages/folium/raster_layers.py",
+    "lib/python3.8/site-packages/folium/templates/fit_bounds.js",
+    "lib/python3.8/site-packages/folium/templates/leaflet_heat.min.js",
+    "lib/python3.8/site-packages/folium/templates/pa7_hm.min.js",
+    "lib/python3.8/site-packages/folium/templates/pa7_leaflet_hm.min.js",
+    "lib/python3.8/site-packages/folium/templates/tiles/cartodbdark_matter/attr.txt",
+    "lib/python3.8/site-packages/folium/templates/tiles/cartodbdark_matter/tiles.txt",
+    "lib/python3.8/site-packages/folium/templates/tiles/cartodbpositron/attr.txt",
+    "lib/python3.8/site-packages/folium/templates/tiles/cartodbpositron/tiles.txt",
+    "lib/python3.8/site-packages/folium/templates/tiles/cartodbpositronnolabels/attr.txt",
+    "lib/python3.8/site-packages/folium/templates/tiles/cartodbpositronnolabels/tiles.txt",
+    "lib/python3.8/site-packages/folium/templates/tiles/cartodbpositrononlylabels/attr.txt",
+    "lib/python3.8/site-packages/folium/templates/tiles/cartodbpositrononlylabels/tiles.txt",
+    "lib/python3.8/site-packages/folium/templates/tiles/openstreetmap/attr.txt",
+    "lib/python3.8/site-packages/folium/templates/tiles/openstreetmap/tiles.txt",
+    "lib/python3.8/site-packages/folium/templates/tiles/stamenterrain/attr.txt",
+    "lib/python3.8/site-packages/folium/templates/tiles/stamenterrain/tiles.txt",
+    "lib/python3.8/site-packages/folium/templates/tiles/stamentoner/attr.txt",
+    "lib/python3.8/site-packages/folium/templates/tiles/stamentoner/tiles.txt",
+    "lib/python3.8/site-packages/folium/templates/tiles/stamentonerbackground/attr.txt",
+    "lib/python3.8/site-packages/folium/templates/tiles/stamentonerbackground/tiles.txt",
+    "lib/python3.8/site-packages/folium/templates/tiles/stamentonerlabels/attr.txt",
+    "lib/python3.8/site-packages/folium/templates/tiles/stamentonerlabels/tiles.txt",
+    "lib/python3.8/site-packages/folium/templates/tiles/stamenwatercolor/attr.txt",
+    "lib/python3.8/site-packages/folium/templates/tiles/stamenwatercolor/tiles.txt",
+    "lib/python3.8/site-packages/folium/utilities.py",
+    "lib/python3.8/site-packages/folium/vector_layers.py"
+  ],
+  "fn": "folium-0.14.0-py38h06a4308_0.conda",
+  "legacy_bz2_md5": "dead3a557dfe066fc55baf327a859857",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/home/kathan/anaconda3/pkgs/folium-0.14.0-py38h06a4308_0",
+    "type": 1
+  },
+  "md5": "251d00a3e761fd9e76b8218914e09e6c",
+  "name": "folium",
+  "package_tarball_full_path": "/home/kathan/anaconda3/pkgs/folium-0.14.0-py38h06a4308_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.8/site-packages/folium-0.14.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium-0.14.0.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "ff62424896e01541776f5f2628f144d90dacb303463450e46f7df80d1bb23e9c",
+        "sha256_in_prefix": "ff62424896e01541776f5f2628f144d90dacb303463450e46f7df80d1bb23e9c",
+        "size_in_bytes": 1072
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium-0.14.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "8ff6a7d6b47cff39ffb8eb0682b17e301b964d83d8a36a76ec6103197db8087e",
+        "sha256_in_prefix": "8ff6a7d6b47cff39ffb8eb0682b17e301b964d83d8a36a76ec6103197db8087e",
+        "size_in_bytes": 3454
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium-0.14.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "cea172d17f541fe00e52bdecd14cd1b5aac2a192aa73aeb51231429721c6a98d",
+        "sha256_in_prefix": "cea172d17f541fe00e52bdecd14cd1b5aac2a192aa73aeb51231429721c6a98d",
+        "size_in_bytes": 9026
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium-0.14.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium-0.14.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "cfd8f4c406bf26650a3299b3ef62b464600b48cfe7fb04159866e5797c765478",
+        "sha256_in_prefix": "cfd8f4c406bf26650a3299b3ef62b464600b48cfe7fb04159866e5797c765478",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium-0.14.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "9734a065324723c84f0f20c76907d975d985b0905b577fcc36d9b9eda845f8fd",
+        "sha256_in_prefix": "9734a065324723c84f0f20c76907d975d985b0905b577fcc36d9b9eda845f8fd",
+        "size_in_bytes": 66
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium-0.14.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "2a4f48b1f374c5a829e23390f4c3ca57840eb211693a3750a56d3c7a0236675d",
+        "sha256_in_prefix": "2a4f48b1f374c5a829e23390f4c3ca57840eb211693a3750a56d3c7a0236675d",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8185491fa11cda33e3200427b46bf385aa87dcd7e3cd8f214becc029be9d1b15",
+        "sha256_in_prefix": "8185491fa11cda33e3200427b46bf385aa87dcd7e3cd8f214becc029be9d1b15",
+        "size_in_bytes": 2430
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "6f72a91e688aab73c37a373bec658a7a78c1d0913cd450274811f81965623ff1",
+        "sha256_in_prefix": "6f72a91e688aab73c37a373bec658a7a78c1d0913cd450274811f81965623ff1",
+        "size_in_bytes": 2506
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/__pycache__/_version.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "590775f62cc644c6ab94d82b49a441840d80d43ba88db7ce6722993b8690f28e",
+        "sha256_in_prefix": "590775f62cc644c6ab94d82b49a441840d80d43ba88db7ce6722993b8690f28e",
+        "size_in_bytes": 159
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/__pycache__/elements.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "cb57a873b774c9bad30b08d498a94ad59e34fb78806f723091f0d3c46a646bdb",
+        "sha256_in_prefix": "cb57a873b774c9bad30b08d498a94ad59e34fb78806f723091f0d3c46a646bdb",
+        "size_in_bytes": 973
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/__pycache__/features.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "64ca8b6adc2f98ebcc812d9880f56fa84973af134839ce832720a631ab1dfee9",
+        "sha256_in_prefix": "64ca8b6adc2f98ebcc812d9880f56fa84973af134839ce832720a631ab1dfee9",
+        "size_in_bytes": 59944
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/__pycache__/folium.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "a963a37b05f79f034ec44111416da1b8f142a22ea15d37d1064acd709e413f0b",
+        "sha256_in_prefix": "a963a37b05f79f034ec44111416da1b8f142a22ea15d37d1064acd709e413f0b",
+        "size_in_bytes": 14792
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/__pycache__/map.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "20586d79192e48ec4c1688913f3256f09e035d08e83d5d8379c47e21a6a82af8",
+        "sha256_in_prefix": "20586d79192e48ec4c1688913f3256f09e035d08e83d5d8379c47e21a6a82af8",
+        "size_in_bytes": 19262
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/__pycache__/raster_layers.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "98ff09c23057cfaac5de822543e11e5f6d413f17b0fab354b0e4ae0a5e63dea4",
+        "sha256_in_prefix": "98ff09c23057cfaac5de822543e11e5f6d413f17b0fab354b0e4ae0a5e63dea4",
+        "size_in_bytes": 13589
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/__pycache__/utilities.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "563057f2c86689cd9c07507e07949bcb72eb40887bbf9f36dc25f2da86a11d31",
+        "sha256_in_prefix": "563057f2c86689cd9c07507e07949bcb72eb40887bbf9f36dc25f2da86a11d31",
+        "size_in_bytes": 15338
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/__pycache__/vector_layers.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "870460710e58edfe1a855602f72a6410d016b4e524d867af711cec150f81def8",
+        "sha256_in_prefix": "870460710e58edfe1a855602f72a6410d016b4e524d867af711cec150f81def8",
+        "size_in_bytes": 11473
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/_version.py",
+        "path_type": "hardlink",
+        "sha256": "a04183c9724b621cb9a756fca027dafc6cbb15188bce4c6576213b092594e67b",
+        "sha256_in_prefix": "a04183c9724b621cb9a756fca027dafc6cbb15188bce4c6576213b092594e67b",
+        "size_in_bytes": 22
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/elements.py",
+        "path_type": "hardlink",
+        "sha256": "e7fed48fd015f53d5c205a5a7ad42d2178b2079bf42db5f0d731fb157775931b",
+        "sha256_in_prefix": "e7fed48fd015f53d5c205a5a7ad42d2178b2079bf42db5f0d731fb157775931b",
+        "size_in_bytes": 644
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/features.py",
+        "path_type": "hardlink",
+        "sha256": "e1ef5c99bb39f1df81541c2541f8054b270e78577f06e32d056bdcea642344ef",
+        "sha256_in_prefix": "e1ef5c99bb39f1df81541c2541f8054b270e78577f06e32d056bdcea642344ef",
+        "size_in_bytes": 68499
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/folium.py",
+        "path_type": "hardlink",
+        "sha256": "38596edfc53c47871ca79c28f79ec40db862532394d75bce0a2137e51226b110",
+        "sha256_in_prefix": "38596edfc53c47871ca79c28f79ec40db862532394d75bce0a2137e51226b110",
+        "size_in_bytes": 16746
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/map.py",
+        "path_type": "hardlink",
+        "sha256": "d53e784445f1b834767946cecf006d2ad47f7ced8444d3bf853aac32b86c00aa",
+        "sha256_in_prefix": "d53e784445f1b834767946cecf006d2ad47f7ced8444d3bf853aac32b86c00aa",
+        "size_in_bytes": 19867
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d86f7bd639f9e36c5985f92779bdce7c7c4590779ad45e0577b4ad45a2096103",
+        "sha256_in_prefix": "d86f7bd639f9e36c5985f92779bdce7c7c4590779ad45e0577b4ad45a2096103",
+        "size_in_bytes": 2522
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "1cae8084d9d814f5700d076ebdd4f2474a38c49e1bbbb224f93c8e348241aa95",
+        "sha256_in_prefix": "1cae8084d9d814f5700d076ebdd4f2474a38c49e1bbbb224f93c8e348241aa95",
+        "size_in_bytes": 2642
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/__pycache__/antpath.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "85152e952b3a2ad7acf0a9b2b32473f360de5243f84a440cecf7c692aae6779c",
+        "sha256_in_prefix": "85152e952b3a2ad7acf0a9b2b32473f360de5243f84a440cecf7c692aae6779c",
+        "size_in_bytes": 2239
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/__pycache__/beautify_icon.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "850d7dd48b9a99288236bddf04d8eb503405c8a03c49330c0c9dd503b9ef7e90",
+        "sha256_in_prefix": "850d7dd48b9a99288236bddf04d8eb503405c8a03c49330c0c9dd503b9ef7e90",
+        "size_in_bytes": 3278
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/__pycache__/boat_marker.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "c0dd811c7e794e5646b6c10c94d68c69f7f6e76c173609314ffc6b54a3e0023d",
+        "sha256_in_prefix": "c0dd811c7e794e5646b6c10c94d68c69f7f6e76c173609314ffc6b54a3e0023d",
+        "size_in_bytes": 2240
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/__pycache__/draw.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "6b76228f6d31954ce5adf63a6c142ed008cb048dcdef6bf2921c003350361cca",
+        "sha256_in_prefix": "6b76228f6d31954ce5adf63a6c142ed008cb048dcdef6bf2921c003350361cca",
+        "size_in_bytes": 5446
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/__pycache__/dual_map.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "74081f7778626ec01aa85b409935af47321e07e325327419374b07d01bb8e111",
+        "sha256_in_prefix": "74081f7778626ec01aa85b409935af47321e07e325327419374b07d01bb8e111",
+        "size_in_bytes": 4150
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/__pycache__/fast_marker_cluster.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "363a72af5f0a4656f0b40aae0fa759568eb90a5abbce23aada9c02b6a58ef636",
+        "sha256_in_prefix": "363a72af5f0a4656f0b40aae0fa759568eb90a5abbce23aada9c02b6a58ef636",
+        "size_in_bytes": 4041
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/__pycache__/feature_group_sub_group.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "bca7eed2ce77f801c87672a88445926f6c7e840fad65f06299ec5e70a4ac475d",
+        "sha256_in_prefix": "bca7eed2ce77f801c87672a88445926f6c7e840fad65f06299ec5e70a4ac475d",
+        "size_in_bytes": 3106
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/__pycache__/float_image.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "abdebd63ea005c8009c55f18874fa1e21b4470c0057834f2839708f5f8b2be42",
+        "sha256_in_prefix": "abdebd63ea005c8009c55f18874fa1e21b4470c0057834f2839708f5f8b2be42",
+        "size_in_bytes": 2028
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/__pycache__/fullscreen.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f555ec184801b908bbb3933158607fb898edc203c5c3eb4a59e75945d41f422c",
+        "sha256_in_prefix": "f555ec184801b908bbb3933158607fb898edc203c5c3eb4a59e75945d41f422c",
+        "size_in_bytes": 2056
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/__pycache__/geocoder.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "bd5eac7ff4a462c2625ec1f1fd5981f38696b47bf307e9e7d2e62e6ff9f74a35",
+        "sha256_in_prefix": "bd5eac7ff4a462c2625ec1f1fd5981f38696b47bf307e9e7d2e62e6ff9f74a35",
+        "size_in_bytes": 2032
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/__pycache__/groupedlayercontrol.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "78e8fe60db79dcf0cd6738bfe1aa3800b16cbd7d79f571f1f427ab6d7b839298",
+        "sha256_in_prefix": "78e8fe60db79dcf0cd6738bfe1aa3800b16cbd7d79f571f1f427ab6d7b839298",
+        "size_in_bytes": 2897
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/__pycache__/heat_map.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "bfe810bec581c17fbcb49ded86688b3c417dfb9c7fa8a1ba723c06cbef2cf1c0",
+        "sha256_in_prefix": "bfe810bec581c17fbcb49ded86688b3c417dfb9c7fa8a1ba723c06cbef2cf1c0",
+        "size_in_bytes": 3624
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/__pycache__/heat_map_withtime.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "85d97b90aff0a2688b494456e1b45cff45fdcabb24ab5c31fcda3e1ee63a68b8",
+        "sha256_in_prefix": "85d97b90aff0a2688b494456e1b45cff45fdcabb24ab5c31fcda3e1ee63a68b8",
+        "size_in_bytes": 11389
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/__pycache__/locate_control.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "a4581b13a266f936f48e2892b11d711e8f1e7ae650e289819d46405fad790488",
+        "sha256_in_prefix": "a4581b13a266f936f48e2892b11d711e8f1e7ae650e289819d46405fad790488",
+        "size_in_bytes": 2605
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/__pycache__/marker_cluster.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "a9502c55103881c57ece180ad2fe34a4a75eb48152fd4330d83e4668fc35bdfc",
+        "sha256_in_prefix": "a9502c55103881c57ece180ad2fe34a4a75eb48152fd4330d83e4668fc35bdfc",
+        "size_in_bytes": 3594
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/__pycache__/measure_control.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "66a92c1fad23f87285f8dfeb665194c28bf1a1c5476d5424f401a4f0fafabd55",
+        "sha256_in_prefix": "66a92c1fad23f87285f8dfeb665194c28bf1a1c5476d5424f401a4f0fafabd55",
+        "size_in_bytes": 1947
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/__pycache__/minimap.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "6647b8da2d7bf17080ca6059ba20015414dbf8d81382b526d56868906d653837",
+        "sha256_in_prefix": "6647b8da2d7bf17080ca6059ba20015414dbf8d81382b526d56868906d653837",
+        "size_in_bytes": 4506
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/__pycache__/mouse_position.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "e6e5415cf1eee162a24edf69bf817257d814b5a0e5ee4c54b5e504082164fd81",
+        "sha256_in_prefix": "e6e5415cf1eee162a24edf69bf817257d814b5a0e5ee4c54b5e504082164fd81",
+        "size_in_bytes": 3224
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/__pycache__/pattern.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "cccabdc6079c2e6f51d1f5e53f880b7c7e94f79666b2468a6a26aad2d3947ffb",
+        "sha256_in_prefix": "cccabdc6079c2e6f51d1f5e53f880b7c7e94f79666b2468a6a26aad2d3947ffb",
+        "size_in_bytes": 4909
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/__pycache__/polyline_offset.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "13ade1c34e86a4fa845c77727825cd3ba650d878a5ce16f4299903483ef817b2",
+        "sha256_in_prefix": "13ade1c34e86a4fa845c77727825cd3ba650d878a5ce16f4299903483ef817b2",
+        "size_in_bytes": 2226
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/__pycache__/polyline_text_path.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "28b9c67dc62e923a0cc7c4ca26d87d91d9c7a28fa86de7ee5714fa3fcd8dae1b",
+        "sha256_in_prefix": "28b9c67dc62e923a0cc7c4ca26d87d91d9c7a28fa86de7ee5714fa3fcd8dae1b",
+        "size_in_bytes": 2390
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/__pycache__/scroll_zoom_toggler.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f74512c526b94be8d66b0d0d03fcae7f4ecbcb4b6cb2558b89a6e19eed94c13f",
+        "sha256_in_prefix": "f74512c526b94be8d66b0d0d03fcae7f4ecbcb4b6cb2558b89a6e19eed94c13f",
+        "size_in_bytes": 2150
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/__pycache__/search.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "be4df30ac62c785bc8dba3b1a3cdde3fd892533ce1c87c2d8d6bdbf7222ea49f",
+        "sha256_in_prefix": "be4df30ac62c785bc8dba3b1a3cdde3fd892533ce1c87c2d8d6bdbf7222ea49f",
+        "size_in_bytes": 5461
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/__pycache__/semicircle.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ad2ff24dabdb1acbbc5d98769372967b8e1b03cc1e2df3c2ad8bff5df9c18816",
+        "sha256_in_prefix": "ad2ff24dabdb1acbbc5d98769372967b8e1b03cc1e2df3c2ad8bff5df9c18816",
+        "size_in_bytes": 2782
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/__pycache__/side_by_side.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "313eb385f9b8d37ca97bac9231b1f376f9baf0cac9d0e0cd2925485c7127d12e",
+        "sha256_in_prefix": "313eb385f9b8d37ca97bac9231b1f376f9baf0cac9d0e0cd2925485c7127d12e",
+        "size_in_bytes": 1867
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/__pycache__/tag_filter_button.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "c3d0730855697ac11eb24ac8b1ad69f50d861c9943c91a16ce76c983c225764d",
+        "sha256_in_prefix": "c3d0730855697ac11eb24ac8b1ad69f50d861c9943c91a16ce76c983c225764d",
+        "size_in_bytes": 2392
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/__pycache__/terminator.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "49f75eae9cd8c5d67edf255bae46cd0bac2e4a74251db6bb042f908d5c36e79a",
+        "sha256_in_prefix": "49f75eae9cd8c5d67edf255bae46cd0bac2e4a74251db6bb042f908d5c36e79a",
+        "size_in_bytes": 1027
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/__pycache__/time_slider_choropleth.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ae526565924cdb0cee046edb3e29c3bd8977b363f878628dbc12841c86f89e69",
+        "sha256_in_prefix": "ae526565924cdb0cee046edb3e29c3bd8977b363f878628dbc12841c86f89e69",
+        "size_in_bytes": 6873
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/__pycache__/timestamped_geo_json.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "6a2e04e09fac4c2f0b51106b3ad84275f1c76a0827574af9829d11b17b55a2f4",
+        "sha256_in_prefix": "6a2e04e09fac4c2f0b51106b3ad84275f1c76a0827574af9829d11b17b55a2f4",
+        "size_in_bytes": 8505
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/__pycache__/timestamped_wmstilelayer.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "9fdcaeca02c2bcd0400696d2e14936e01d06ee7d0e4f318312c58adb8ab0cfaf",
+        "sha256_in_prefix": "9fdcaeca02c2bcd0400696d2e14936e01d06ee7d0e4f318312c58adb8ab0cfaf",
+        "size_in_bytes": 5077
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/__pycache__/vectorgrid_protobuf.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "91827d77f41ebc9c6abecb0e13198d987a27dfa0535b5b27fcee903b7485c582",
+        "sha256_in_prefix": "91827d77f41ebc9c6abecb0e13198d987a27dfa0535b5b27fcee903b7485c582",
+        "size_in_bytes": 4603
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/antpath.py",
+        "path_type": "hardlink",
+        "sha256": "3e823836ac243d1b853c379e89ee18fd2e42f525b71eb2ed19b4e57d5bec8ac9",
+        "sha256_in_prefix": "3e823836ac243d1b853c379e89ee18fd2e42f525b71eb2ed19b4e57d5bec8ac9",
+        "size_in_bytes": 2256
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/beautify_icon.py",
+        "path_type": "hardlink",
+        "sha256": "ac8e19668936d13aa11e234e597442adc6c364e7db5a93358813f1708df4ca9f",
+        "sha256_in_prefix": "ac8e19668936d13aa11e234e597442adc6c364e7db5a93358813f1708df4ca9f",
+        "size_in_bytes": 3370
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/boat_marker.py",
+        "path_type": "hardlink",
+        "sha256": "cb18ebed1af2a28f5147d4d71a22afcd3156e701255f69a50bd50bc36bbae1fc",
+        "sha256_in_prefix": "cb18ebed1af2a28f5147d4d71a22afcd3156e701255f69a50bd50bc36bbae1fc",
+        "size_in_bytes": 2039
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/draw.py",
+        "path_type": "hardlink",
+        "sha256": "976b67da7eaca357d4ff9e59170d4605a9d8747bbf31fa3c239e7fcd1667556c",
+        "sha256_in_prefix": "976b67da7eaca357d4ff9e59170d4605a9d8747bbf31fa3c239e7fcd1667556c",
+        "size_in_bytes": 5374
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/dual_map.py",
+        "path_type": "hardlink",
+        "sha256": "4b79aa652e9ac54aa0e566767e23ad4f1f17266f679bda924f7c653032b23448",
+        "sha256_in_prefix": "4b79aa652e9ac54aa0e566767e23ad4f1f17266f679bda924f7c653032b23448",
+        "size_in_bytes": 4579
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/fast_marker_cluster.py",
+        "path_type": "hardlink",
+        "sha256": "f51aa83d466ef58ac0822681d1bcc38dfda407ea60daa45bf346a5172671414d",
+        "sha256_in_prefix": "f51aa83d466ef58ac0822681d1bcc38dfda407ea60daa45bf346a5172671414d",
+        "size_in_bytes": 3922
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/feature_group_sub_group.py",
+        "path_type": "hardlink",
+        "sha256": "1c50d5d1ada2d442ff667a74299e156064e13b87a20386c620816b0654a8b66a",
+        "sha256_in_prefix": "1c50d5d1ada2d442ff667a74299e156064e13b87a20386c620816b0654a8b66a",
+        "size_in_bytes": 2789
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/float_image.py",
+        "path_type": "hardlink",
+        "sha256": "3cfa539768095b93c7c0f97fa0fdfba7101f5ad9c4740d7a0272adf11f0f9dee",
+        "sha256_in_prefix": "3cfa539768095b93c7c0f97fa0fdfba7101f5ad9c4740d7a0272adf11f0f9dee",
+        "size_in_bytes": 1678
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/fullscreen.py",
+        "path_type": "hardlink",
+        "sha256": "2cc54f9d66af5cecf7a0f28cda29eae502ef68597b6c08a3d934e650aa31c340",
+        "sha256_in_prefix": "2cc54f9d66af5cecf7a0f28cda29eae502ef68597b6c08a3d934e650aa31c340",
+        "size_in_bytes": 1941
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/geocoder.py",
+        "path_type": "hardlink",
+        "sha256": "cb0b202cbb3b317ae72f975e5be02272227c79f285e9e77659875993abf96bb2",
+        "sha256_in_prefix": "cb0b202cbb3b317ae72f975e5be02272227c79f285e9e77659875993abf96bb2",
+        "size_in_bytes": 1822
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/groupedlayercontrol.py",
+        "path_type": "hardlink",
+        "sha256": "1db03ceb4efc7791754486ad9e0a2cfc3cfc497092572a58606fc11dcf2050b3",
+        "sha256_in_prefix": "1db03ceb4efc7791754486ad9e0a2cfc3cfc497092572a58606fc11dcf2050b3",
+        "size_in_bytes": 3173
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/heat_map.py",
+        "path_type": "hardlink",
+        "sha256": "764064bca1191d6254554ef9a6bf941d17356669561e9328079c7b8138e6d6ef",
+        "sha256_in_prefix": "764064bca1191d6254554ef9a6bf941d17356669561e9328079c7b8138e6d6ef",
+        "size_in_bytes": 3672
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/heat_map_withtime.py",
+        "path_type": "hardlink",
+        "sha256": "a5bebed930218f4181abec0687188b0ccd4fed2e26ef4069ac472d193354c343",
+        "sha256_in_prefix": "a5bebed930218f4181abec0687188b0ccd4fed2e26ef4069ac472d193354c343",
+        "size_in_bytes": 12068
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/locate_control.py",
+        "path_type": "hardlink",
+        "sha256": "ec9a0d4fb2d14d6851cd21cc8b0ebc5303a2ab9019cc3a4130544aca61c2c80a",
+        "sha256_in_prefix": "ec9a0d4fb2d14d6851cd21cc8b0ebc5303a2ab9019cc3a4130544aca61c2c80a",
+        "size_in_bytes": 2336
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/marker_cluster.py",
+        "path_type": "hardlink",
+        "sha256": "b2a941f98ea85b474d721a3a42e316d593eb8a7e625587ad3d56f61300ded1be",
+        "sha256_in_prefix": "b2a941f98ea85b474d721a3a42e316d593eb8a7e625587ad3d56f61300ded1be",
+        "size_in_bytes": 3791
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/measure_control.py",
+        "path_type": "hardlink",
+        "sha256": "cec2c7cb1e829fca8fd32913635a3d6a3f7abe1099d7c31567db9ad1551af50f",
+        "sha256_in_prefix": "cec2c7cb1e829fca8fd32913635a3d6a3f7abe1099d7c31567db9ad1551af50f",
+        "size_in_bytes": 1906
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/minimap.py",
+        "path_type": "hardlink",
+        "sha256": "31876b5809e4cb5fcec5985651f18dfb627d905f3093c31a7789a5ccb3c2ebf9",
+        "sha256_in_prefix": "31876b5809e4cb5fcec5985651f18dfb627d905f3093c31a7789a5ccb3c2ebf9",
+        "size_in_bytes": 4858
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/mouse_position.py",
+        "path_type": "hardlink",
+        "sha256": "190e44f13aa8e501932c4510a9de155ba44e78616efdfc4eb46208a44423afd8",
+        "sha256_in_prefix": "190e44f13aa8e501932c4510a9de155ba44e78616efdfc4eb46208a44423afd8",
+        "size_in_bytes": 3214
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/pattern.py",
+        "path_type": "hardlink",
+        "sha256": "2fcf524eb242cca939fe901ac6da738d8c0d29b128ffa92be6f95e56c6db6382",
+        "sha256_in_prefix": "2fcf524eb242cca939fe901ac6da738d8c0d29b128ffa92be6f95e56c6db6382",
+        "size_in_bytes": 4895
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/polyline_offset.py",
+        "path_type": "hardlink",
+        "sha256": "3aee138e6a7447ce2b75dd0b0cd9206058c31eda05b0090f3cd04678bca606a8",
+        "sha256_in_prefix": "3aee138e6a7447ce2b75dd0b0cd9206058c31eda05b0090f3cd04678bca606a8",
+        "size_in_bytes": 1939
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/polyline_text_path.py",
+        "path_type": "hardlink",
+        "sha256": "7202095cc8adab9a92db96bfc48dd9b9186899073efd4b9e97a66bb7385612c9",
+        "sha256_in_prefix": "7202095cc8adab9a92db96bfc48dd9b9186899073efd4b9e97a66bb7385612c9",
+        "size_in_bytes": 2292
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/scroll_zoom_toggler.py",
+        "path_type": "hardlink",
+        "sha256": "cb2d16ddf79aeea90604c35d59fd104732fc229a20bafcadc6c617c17a26e6f5",
+        "sha256_in_prefix": "cb2d16ddf79aeea90604c35d59fd104732fc229a20bafcadc6c617c17a26e6f5",
+        "size_in_bytes": 1751
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/search.py",
+        "path_type": "hardlink",
+        "sha256": "5eb472db56904b85fdf7dd528f002d7296de0511106b1f0f8b1c142df1cee6bf",
+        "sha256_in_prefix": "5eb472db56904b85fdf7dd528f002d7296de0511106b1f0f8b1c142df1cee6bf",
+        "size_in_bytes": 5592
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/semicircle.py",
+        "path_type": "hardlink",
+        "sha256": "984c4dc0921276a546e3db949d8b860d300113bcd9f7a21f08975dfebf8b2750",
+        "sha256_in_prefix": "984c4dc0921276a546e3db949d8b860d300113bcd9f7a21f08975dfebf8b2750",
+        "size_in_bytes": 2935
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/side_by_side.py",
+        "path_type": "hardlink",
+        "sha256": "d4b2f66bbfdfccf61059b18ea46a3b2b3dd8c027a7bac9c8cfe0f74a20fb9df7",
+        "sha256_in_prefix": "d4b2f66bbfdfccf61059b18ea46a3b2b3dd8c027a7bac9c8cfe0f74a20fb9df7",
+        "size_in_bytes": 1563
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/tag_filter_button.py",
+        "path_type": "hardlink",
+        "sha256": "07c932389bd10e2293fbffd889cd360f3e50e3cb7415a86e726ba8051365cd96",
+        "sha256_in_prefix": "07c932389bd10e2293fbffd889cd360f3e50e3cb7415a86e726ba8051365cd96",
+        "size_in_bytes": 2438
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/terminator.py",
+        "path_type": "hardlink",
+        "sha256": "a05fabf52626ba0498a61606ce26bacc1fa5b0398cc9a694d04e1d66493b69b0",
+        "sha256_in_prefix": "a05fabf52626ba0498a61606ce26bacc1fa5b0398cc9a694d04e1d66493b69b0",
+        "size_in_bytes": 643
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/time_slider_choropleth.py",
+        "path_type": "hardlink",
+        "sha256": "1afc3930780d59d9b6390155939c88c9464bddb0e09e69a3da3b3eff73c97fed",
+        "sha256_in_prefix": "1afc3930780d59d9b6390155939c88c9464bddb0e09e69a3da3b3eff73c97fed",
+        "size_in_bytes": 7041
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/timestamped_geo_json.py",
+        "path_type": "hardlink",
+        "sha256": "53888b052c892db29407ea5128e87ed346fde3f6a29f1eacd3fbf47f600698db",
+        "sha256_in_prefix": "53888b052c892db29407ea5128e87ed346fde3f6a29f1eacd3fbf47f600698db",
+        "size_in_bytes": 9122
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/timestamped_wmstilelayer.py",
+        "path_type": "hardlink",
+        "sha256": "3074eb4538cbc9748c054d911bf2e2d14ee4d9ff4db8e3a44603b2290619a3da",
+        "sha256_in_prefix": "3074eb4538cbc9748c054d911bf2e2d14ee4d9ff4db8e3a44603b2290619a3da",
+        "size_in_bytes": 5257
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/plugins/vectorgrid_protobuf.py",
+        "path_type": "hardlink",
+        "sha256": "7ad60e7574d10f86f8875d981457a50bcb3e3fddf8a4e6370e871269f3e9b75b",
+        "sha256_in_prefix": "7ad60e7574d10f86f8875d981457a50bcb3e3fddf8a4e6370e871269f3e9b75b",
+        "size_in_bytes": 4342
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/raster_layers.py",
+        "path_type": "hardlink",
+        "sha256": "cad562bc91b226e34753a5831ccd8eee7d2f9eb0fc014175e6123b933a0678bb",
+        "sha256_in_prefix": "cad562bc91b226e34753a5831ccd8eee7d2f9eb0fc014175e6123b933a0678bb",
+        "size_in_bytes": 14499
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/templates/fit_bounds.js",
+        "path_type": "hardlink",
+        "sha256": "bec9d87d5f9c356f6923dd25918888e1cfcb45e17ac37c2221fdf54f912c43b3",
+        "sha256_in_prefix": "bec9d87d5f9c356f6923dd25918888e1cfcb45e17ac37c2221fdf54f912c43b3",
+        "size_in_bytes": 268
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/templates/leaflet_heat.min.js",
+        "path_type": "hardlink",
+        "sha256": "7378c428ff2318ec48e7e73c0d46061f938aa75551c519c74cd790b044dfa0fa",
+        "sha256_in_prefix": "7378c428ff2318ec48e7e73c0d46061f938aa75551c519c74cd790b044dfa0fa",
+        "size_in_bytes": 5315
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/templates/pa7_hm.min.js",
+        "path_type": "hardlink",
+        "sha256": "9c6b22e23af62da9628fc88a81cf8ca1e06b0e7b4a0c4047a8adbf0871e27b14",
+        "sha256_in_prefix": "9c6b22e23af62da9628fc88a81cf8ca1e06b0e7b4a0c4047a8adbf0871e27b14",
+        "size_in_bytes": 9454
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/templates/pa7_leaflet_hm.min.js",
+        "path_type": "hardlink",
+        "sha256": "88104c107918ca275dabafb0fec0c75982212abb93f929a7468f2a835b1c1bdb",
+        "sha256_in_prefix": "88104c107918ca275dabafb0fec0c75982212abb93f929a7468f2a835b1c1bdb",
+        "size_in_bytes": 4753
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/templates/tiles/cartodbdark_matter/attr.txt",
+        "path_type": "hardlink",
+        "sha256": "4735bfad9e341b181b62bb58d5723f2fc519d52b311dab511006a6df6252a9db",
+        "sha256_in_prefix": "4735bfad9e341b181b62bb58d5723f2fc519d52b311dab511006a6df6252a9db",
+        "size_in_bytes": 265
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/templates/tiles/cartodbdark_matter/tiles.txt",
+        "path_type": "hardlink",
+        "sha256": "25a8a77b822c86313c617c68f30816d04cf4c8fd6b02853eb94a2a71a77eccb1",
+        "sha256_in_prefix": "25a8a77b822c86313c617c68f30816d04cf4c8fd6b02853eb94a2a71a77eccb1",
+        "size_in_bytes": 76
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/templates/tiles/cartodbpositron/attr.txt",
+        "path_type": "hardlink",
+        "sha256": "4735bfad9e341b181b62bb58d5723f2fc519d52b311dab511006a6df6252a9db",
+        "sha256_in_prefix": "4735bfad9e341b181b62bb58d5723f2fc519d52b311dab511006a6df6252a9db",
+        "size_in_bytes": 265
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/templates/tiles/cartodbpositron/tiles.txt",
+        "path_type": "hardlink",
+        "sha256": "c77600b7ee62e4325b1fcd3108c204f42850d59e222bef7468cefaca9e7ae326",
+        "sha256_in_prefix": "c77600b7ee62e4325b1fcd3108c204f42850d59e222bef7468cefaca9e7ae326",
+        "size_in_bytes": 77
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/templates/tiles/cartodbpositronnolabels/attr.txt",
+        "path_type": "hardlink",
+        "sha256": "48b1799da0d361ed27c1e9ec6a5cb4809f06bd228752a9691bf4163718b1585c",
+        "sha256_in_prefix": "48b1799da0d361ed27c1e9ec6a5cb4809f06bd228752a9691bf4163718b1585c",
+        "size_in_bytes": 259
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/templates/tiles/cartodbpositronnolabels/tiles.txt",
+        "path_type": "hardlink",
+        "sha256": "719c15328f986ab9c1d89281553e166a9411d206a7913ec44f61e15196b05d43",
+        "sha256_in_prefix": "719c15328f986ab9c1d89281553e166a9411d206a7913ec44f61e15196b05d43",
+        "size_in_bytes": 68
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/templates/tiles/cartodbpositrononlylabels/attr.txt",
+        "path_type": "hardlink",
+        "sha256": "48b1799da0d361ed27c1e9ec6a5cb4809f06bd228752a9691bf4163718b1585c",
+        "sha256_in_prefix": "48b1799da0d361ed27c1e9ec6a5cb4809f06bd228752a9691bf4163718b1585c",
+        "size_in_bytes": 259
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/templates/tiles/cartodbpositrononlylabels/tiles.txt",
+        "path_type": "hardlink",
+        "sha256": "25eeaba92af7a2429d4b104ea0b3d75d6d71e228595cba0e7153b5fbea688771",
+        "sha256_in_prefix": "25eeaba92af7a2429d4b104ea0b3d75d6d71e228595cba0e7153b5fbea688771",
+        "size_in_bytes": 71
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/templates/tiles/openstreetmap/attr.txt",
+        "path_type": "hardlink",
+        "sha256": "e648751d8aa014bbbb1cff52f847eec8d16f09956226c18007a4d43685a3ddaa",
+        "sha256_in_prefix": "e648751d8aa014bbbb1cff52f847eec8d16f09956226c18007a4d43685a3ddaa",
+        "size_in_bytes": 166
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/templates/tiles/openstreetmap/tiles.txt",
+        "path_type": "hardlink",
+        "sha256": "2c83d7a33accc399cd282cebe4f32605d76ff56e3028cf46646cb457f6783f66",
+        "sha256_in_prefix": "2c83d7a33accc399cd282cebe4f32605d76ff56e3028cf46646cb457f6783f66",
+        "size_in_bytes": 51
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/templates/tiles/stamenterrain/attr.txt",
+        "path_type": "hardlink",
+        "sha256": "f5c20044140471495ca12417f5822d2e84d69de605434ee84fe2156ecd439cbc",
+        "sha256_in_prefix": "f5c20044140471495ca12417f5822d2e84d69de605434ee84fe2156ecd439cbc",
+        "size_in_bytes": 343
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/templates/tiles/stamenterrain/tiles.txt",
+        "path_type": "hardlink",
+        "sha256": "ebe7c59aff3dd1af34941400d7dd7a1ee2e0d6bf987fdbeccf007c9643b860cf",
+        "sha256_in_prefix": "ebe7c59aff3dd1af34941400d7dd7a1ee2e0d6bf987fdbeccf007c9643b860cf",
+        "size_in_bytes": 66
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/templates/tiles/stamentoner/attr.txt",
+        "path_type": "hardlink",
+        "sha256": "6d02dd421d65165d4598a948419cae0566e436c735c24e8faf30d8f5eec79248",
+        "sha256_in_prefix": "6d02dd421d65165d4598a948419cae0566e436c735c24e8faf30d8f5eec79248",
+        "size_in_bytes": 332
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/templates/tiles/stamentoner/tiles.txt",
+        "path_type": "hardlink",
+        "sha256": "1bc977718b5b21177aa7061a2b7d0cdca31a1c182c6a8dcdb0a094fa1fa8f64a",
+        "sha256_in_prefix": "1bc977718b5b21177aa7061a2b7d0cdca31a1c182c6a8dcdb0a094fa1fa8f64a",
+        "size_in_bytes": 64
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/templates/tiles/stamentonerbackground/attr.txt",
+        "path_type": "hardlink",
+        "sha256": "753a36e2eaeb4caeb14134bf3890025cfb767165099c4d5969187298acc9e452",
+        "sha256_in_prefix": "753a36e2eaeb4caeb14134bf3890025cfb767165099c4d5969187298acc9e452",
+        "size_in_bytes": 325
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/templates/tiles/stamentonerbackground/tiles.txt",
+        "path_type": "hardlink",
+        "sha256": "02d1ea8822650fa5efceb29031ea9168c8d4764ce1bd9b20fa3c6b1290d3e748",
+        "sha256_in_prefix": "02d1ea8822650fa5efceb29031ea9168c8d4764ce1bd9b20fa3c6b1290d3e748",
+        "size_in_bytes": 78
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/templates/tiles/stamentonerlabels/attr.txt",
+        "path_type": "hardlink",
+        "sha256": "753a36e2eaeb4caeb14134bf3890025cfb767165099c4d5969187298acc9e452",
+        "sha256_in_prefix": "753a36e2eaeb4caeb14134bf3890025cfb767165099c4d5969187298acc9e452",
+        "size_in_bytes": 325
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/templates/tiles/stamentonerlabels/tiles.txt",
+        "path_type": "hardlink",
+        "sha256": "9882b2d366bd3aafae6b71dcea8197bca5a6edab1f5bed0b3ef96372b889fcce",
+        "sha256_in_prefix": "9882b2d366bd3aafae6b71dcea8197bca5a6edab1f5bed0b3ef96372b889fcce",
+        "size_in_bytes": 74
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/templates/tiles/stamenwatercolor/attr.txt",
+        "path_type": "hardlink",
+        "sha256": "f5c20044140471495ca12417f5822d2e84d69de605434ee84fe2156ecd439cbc",
+        "sha256_in_prefix": "f5c20044140471495ca12417f5822d2e84d69de605434ee84fe2156ecd439cbc",
+        "size_in_bytes": 343
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/templates/tiles/stamenwatercolor/tiles.txt",
+        "path_type": "hardlink",
+        "sha256": "4f3d5773ce755de8634069e01cd9654e2427d43de5aa7c44c11e1798539a891a",
+        "sha256_in_prefix": "4f3d5773ce755de8634069e01cd9654e2427d43de5aa7c44c11e1798539a891a",
+        "size_in_bytes": 69
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/utilities.py",
+        "path_type": "hardlink",
+        "sha256": "4406ad60a2df8eefd16a183edc853c26ba74a7cc8ee1955e20a176a3aecad867",
+        "sha256_in_prefix": "4406ad60a2df8eefd16a183edc853c26ba74a7cc8ee1955e20a176a3aecad867",
+        "size_in_bytes": 15375
+      },
+      {
+        "_path": "lib/python3.8/site-packages/folium/vector_layers.py",
+        "path_type": "hardlink",
+        "sha256": "bb4a14aebbdfeab94977632cacca4325fe14171130c31c3f8a1b8ee10bc6c9c0",
+        "sha256_in_prefix": "bb4a14aebbdfeab94977632cacca4325fe14171130c31c3f8a1b8ee10bc6c9c0",
+        "size_in_bytes": 11270
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "folium",
+  "sha256": "518fa5766dadf5d06cdf938c4b6b32850de6278fb8364b200bb5615046a285ff",
+  "size": 114437,
+  "subdir": "linux-64",
+  "timestamp": 1675353472060,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/folium-0.14.0-py38h06a4308_0.conda",
+  "version": "0.14.0"
+}
